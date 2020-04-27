@@ -1,2 +1,5 @@
-## Resources
-This repository contains free resources created and maintained by Small Data Industries.
+# Open Resources
+We are working on putting a fresh coat of paint :)
+
+![under construction animated gif](/img/mamagnolia_acresunderconstruction.gif)
+
