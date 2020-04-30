@@ -1,22 +1,24 @@
 body{
-	text-align:center;
 	background-color: #f1e7e5;
 	font-family: 'Roboto Mono', monospace;
+	color: #21254f;
+	margin:35px 15px 35px;
+}
+
+.logo{
+	height: 75px;
+	margin-bottom: 19px;
+}
+
+ h1{
 	font-weight: 100;
-	font-size: 2.5em;
-	height:100%;
-	width:100%;
-	margin:50px;
 }
 
-
-.splash{
-position:absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
-  margin: auto;
-  height: 7.5em; 
+.card{
+	margin:.8em;
 }
 
-img{
-	filter: grayscale(100%);
+.card-container{
+	margin-left: -.8em;
+	margin-right: -.8em;
 }
