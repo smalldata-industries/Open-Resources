@@ -3,137 +3,108 @@
 {% include header.html %}
 
 
-<div class="button-group filter-button-group">
-	Filter:
-  <button data-filter="*">show all</button>
-  <button data-filter=".research">research</button>
-  <button data-filter=".reference">reference</button>
-  <button data-filter=".how-to">how-to</button>
-    <button data-filter=".learning">learning</button>
 
+<div class="button-group filter-button-group btn-group-sm">
+  <button type="button" class="btn btn-secondary" data-filter="*">show all</button>
+  <button type="button" class="btn btn-secondary" data-filter=".research">research</button>
+  <button type="button" class="btn btn-secondary" data-filter=".reference">reference</button>
+  <button type="button" class="btn btn-secondary" data-filter=".how-to">how-to</button>
+  <button type="button" class="btn btn-secondary" data-filter=".learning">learning</button>
 </div>
 
-<div class="card-container">
+<div class="grid">
 
-<a href="time-based-media-glossary/">
-	<div class="card reference" style="width: 18rem;">
-	  <img class="card-img-top" src="/assets/img/projector.jpg" alt="Card image cap">
-	  <div class="card-body">
-	    <h5 class="card-title">Time-Based Media Glossary</h5>
-	    <p class="card-text">Category: reference</p>
-	  </div>
-	</div>
-</a>
+<div class="grid-sizer col-xs-6 col-sm-6 col-md-4"></div>
 
-<a href="research/gif">
-	<div class="card research" style="width: 18rem;">
-	  <img class="card-img-top" src="/research/gif/img/underconstruction-momi.jpg" alt="Card image cap">
-	  <div class="card-body">
-	    <h5 class="card-title">Preserving Animated GIFs</h5>
-	    <p class="card-text">Category: research</p>
-	  </div>
-	</div>
-</a>
+    <div class="grid-item reference col-xs-6 col-sm-6 col-md-4">
+    	<a href="time-based-media-glossary/">
+      <div class="grid-item-content">
+      	<img class="img-fluid" src="/assets/img/projector.jpg">
+      	<h5 >Time-Based Media Glossary</h5>
+	    <p>Category: reference</p>
+      </div>
+      </a>
+    </div>
 
-<a href="research/designing-the-future">
-	<div class="card research" style="width: 18rem;">
-	  <img class="card-img-top" src="/research/designing-the-future/img/grid.jpg" alt="Card image cap">
-	  <div class="card-body">
-	    <h5 class="card-title">Designing the Future of Design</h5>
-	    <p class="card-text">Category: research</p>
-	  </div>
-	</div>
-</a>
+    <div class="grid-item research col-xs-6 col-sm-6 col-md-4">
+    	    	<a href="research/gif">
+      <div class="grid-item-content">
+      	<img class="img-fluid" src="/research/gif/img/underconstruction-momi.jpg">
+      	<h5>Preserving Animated GIFs</h5>
+	    <p>Category: research</p>
+      </div>
+      </a>
+    </div>
 
-<a href="templates/artwork-inventory-checklist.html">
-	<div class="card reference" style="width: 18rem;">
-	  <img class="card-img-top" src="/assets/img/checklist.jpg" alt="Card image cap">
-	  <div class="card-body">
-	    <h5 class="card-title">Artwork Inventory Checklist</h5>
-	    <p class="card-text">Category: reference</p>
-	  </div>
-	</div>
-</a>
 
-<a href="https://youtu.be/8kywlhEx2s8">
-	<div class="card how-to" style="width: 18rem;">
-	  <img class="card-img-top" src="/assets/img/mac-checksum.png" alt="Card image cap">
-	  <div class="card-body">
-	    <h5 class="card-title">How To Make Checksums on a Mac</h5>
-	    <p class="card-text">Category: how-to</p>
-	  </div>
-	</div>
-</a>
+    <div class="grid-item research col-xs-6 col-sm-6 col-md-4">
+    	<a href="research/designing-the-future">
+      <div class="grid-item-content">
+      	<img class="img-fluid" src="/research/designing-the-future/img/grid.jpg">
+      	<h5 >Designing the Future of Design</h5>
+	    <p>Category: research</p>
+      </div>
+  </a>
+    </div>
 
+
+    <div class="grid-item reference col-xs-6 col-sm-6 col-md-4">
+    	<a href="templates/artwork-inventory-checklist.html">
+      <div class="grid-item-content">
+      	<img class="img-fluid" src="/assets/img/checklist.jpg">
+      	<h5>Artwork Inventory Checklist</h5>
+	    <p>Category: reference</p>
+      </div>
+  </a>
+    </div>
+
+
+
+    <div class="grid-item how-to col-xs-6 col-sm-6 col-md-4">
+    	<a href="https://youtu.be/8kywlhEx2s8">
+      <div class="grid-item-content">
+      	<img class="img-fluid" src="/assets/img/mac-checksum.png">
+      	<h5>How To Make Checksums on a Mac</h5>
+	    <p>Category: how-to</p>
+      </div>
+      </a>
+    </div>
+
+    <div class="grid-item how-to col-xs-6 col-sm-6 col-md-4">
 <a href="https://youtu.be/RzqunK93tis">
-	<div class="card how-to" style="width: 18rem;">
-	  <img class="card-img-top" src="/assets/img/windows-checksum.png" alt="Card image cap">
-	  <div class="card-body">
-	    <h5 class="card-title">How To Make Checksums on a PC</h5>
-	    <p class="card-text">Category: how-to</p>
-	  </div>
-	</div>
-</a>
+      <div class="grid-item-content">
+      	<img class="img-fluid" src="/assets/img/windows-checksum.png">
+      	<h5>How To Make Checksums on a PC</h5>
+	    <p>Category: how-to</p>
+      </div>
+      </a>
+    </div>
 
 
+    <div class="grid-item learning col-xs-6 col-sm-6 col-md-4">
 <a href="https://youtu.be/3u2IYmjbzRo">
-	<div class="card learning" style="width: 18rem;">
-	  <img class="card-img-top" src="/assets/img/disk-imaging.png" alt="Card image cap">
-	  <div class="card-body">
-	    <h5 class="card-title">Getting Started With Disk Imaging</h5>
-	    <p class="card-text">Category: learning</p>
-	  </div>
-	</div>
-</a>
+      <div class="grid-item-content">
+      	<img class="img-fluid" src="/assets/img/disk-imaging.png">
+      	<h5>Getting Started With Disk Imaging</h5>
+	    <p>Category: learning</p>
+      </div>
+      </a>
+    </div>
 
-<a href="research/gif">
-	<div class="card reference" style="width: 18rem;">
-	  <img class="card-img-top" src="/assets/img/obsolete-media.jpg" alt="Card image cap">
-	  <div class="card-body">
-	    <h5 class="card-title">Obsolete Media Field Guide</h5>
-	    <p class="card-text">Category: reference</p>
-	  </div>
-	</div>
-</a>
-
+    <div class="grid-item reference col-xs-6 col-sm-6 col-md-4">
+<a href="https://youtu.be/3u2IYmjbzRo">
+      <div class="grid-item-content">
+      	<img class="img-fluid" src="/assets/img/obsolete-media.jpg">
+      	<h5>Obsolete Media Field Guide</h5>
+	    <p>Category: reference</p>
+      </div>
+      </a>
+    </div>
 
 
-
-
-
-
-<!-- 	<div class="col resources">
-	<img src="https://via.placeholder.com/600x400" class="img-fluid"/>
-	<a href="time-based-media-glossary/">Time-Based Media Glossary</a>
-	</div>
-
-	<div class="col research">
-	<img src="https://via.placeholder.com/600x400" class="img-fluid"/>
-	<a href="research/gif">Preserving Animated GIFs</a>
-	</div>
-
-	<div class="col research">
-	<img src="https://via.placeholder.com/600x400" class="img-fluid"/>
-	One of three columns
-	</div>
-
-	<div class="col">
-	<img src="https://via.placeholder.com/600x400" class="img-fluid"/>
-
-	One of three columns
-	</div>
-
-	<div class="col">
-	<img src="https://via.placeholder.com/600x400" class="img-fluid"/>
-	One of three columns
-	</div>
-
-	<div class="col">
-	<img src="https://via.placeholder.com/600x400" class="img-fluid"/>
-	One of three columns
-	</div> -->
 
 </div>
+
 
 {% include footer.html %}
 

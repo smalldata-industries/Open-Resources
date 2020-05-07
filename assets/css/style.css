@@ -2,13 +2,37 @@ body{
 	background-color: #f1e7e5;
 	font-family: 'Roboto Mono', monospace;
 	color: #21254f;
-	margin:35px 15px 35px;
+	margin-top:35px;
 }
 
 .logo{
-	height: 75px;
-	margin-bottom: 19px;
+/*	height: 75px;
+*/	margin-bottom: 19px;
 }
+
+.footer{
+	background-color: #21254f;
+	color: white;
+	padding-top: 8rem;
+	font-size: 11px;
+	padding-bottom: 5rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
+}
+
+.footer-logo{
+	margin-bottom: 6rem;
+}
+
+.footer ul{
+	font-size: 11px;
+	color: #f1e7e5;
+}
+
+.footer a{
+	color: #f1e7e5;
+}
+
 
  h1{
 	font-weight: 100;
@@ -16,9 +40,120 @@ body{
 
 .card{
 	margin:.8em;
+	min-width: 31.3% !important;
 }
 
 .card-container{
 	margin-left: -.8em;
 	margin-right: -.8em;
+}
+
+
+.strong{
+	font-weight: 700;
+}
+
+.github{
+	position: absolute;
+	top: 0;
+	right:0;
+	z-index: 150;
+}
+
+.github a{
+	display: inline;
+}
+
+@media only screen and (max-width: 995px) {
+  .github{
+	display: none;
+}
+
+}
+
+.grid{
+	margin-bottom: 6rem;
+}
+
+
+.grid-item-content {
+  background: #0000001a;
+  padding-bottom: 1rem;
+
+}
+
+.grid-item-content:hover{
+
+    box-shadow: 1px 2px 20px 0px #8fb0b3b8;
+text-decoration: none;
+
+}
+
+.btn{
+	margin-bottom: .6rem;
+}
+
+.btn-sm{
+		margin-bottom: .6rem;
+
+}
+
+.grid-item-content a{
+	color:  #21254f;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:hover h5{
+	color:  #60bc93;
+	text-decoration: underline;
+}
+
+a:hover p{
+	color:  #21254f;
+	text-decoration: none;
+}
+
+.grid-item-content h5{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	color: #60bc93;
+}
+
+.grid-item-content p{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color:  #21254f;
+
+}
+
+.grid-item{
+	margin-top:1.5rem;
+}
+
+.header{
+    margin-left: 0rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    }
+
+.button-group{
+	margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.foreward{
+  background-color: #21254f;
+  color: #f2e7e6;
+  padding: 20px;
+  font-size: .8rem;
+  line-height: 1em;
+}
+
+.spacer {
+	margin: 5rem;
 }

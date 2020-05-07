@@ -1,5 +1,5 @@
 ---
-title: Small Data Industries - Open Resources
+title: Time-based Media Glossary of Terms
 layout: default
 ---
 
