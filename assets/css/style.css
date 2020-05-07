@@ -59,8 +59,41 @@ body{
 
 
 .grid-item-content {
-  background: white;
+  background: #0000001a;
   border: 1px solid hsla(0, 0%, 0%, 0.7);
+}
+
+.grid-item-content a{
+	color:  #21254f;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:hover h5{
+	color:  #21254f;
+	text-decoration: underline;
+}
+
+a:hover p{
+	color:  #21254f;
+	text-decoration: underline;
+}
+
+.grid-item-content h5{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	color: #21254f;
+}
+
+.grid-item-content p{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color:  #21254f;
+
 }
 
 .grid-item{
