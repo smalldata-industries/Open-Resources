@@ -13,8 +13,26 @@ body{
 .footer{
 	background-color: #21254f;
 	color: white;
-	padding-top: 3rem;
+	padding-top: 8rem;
+	font-size: 11px;
+	padding-bottom: 5rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
 }
+
+.footer-logo{
+	margin-bottom: 6rem;
+}
+
+.footer ul{
+	font-size: 11px;
+	color: #f1e7e5;
+}
+
+.footer a{
+	color: #f1e7e5;
+}
+
 
  h1{
 	font-weight: 100;
@@ -60,7 +78,24 @@ body{
 
 .grid-item-content {
   background: #0000001a;
-  border: 1px solid hsla(0, 0%, 0%, 0.7);
+  padding-bottom: 1rem;
+
+}
+
+.grid-item-content:hover{
+
+    box-shadow: 1px 2px 20px 0px #8fb0b3b8;
+text-decoration: none;
+
+}
+
+.btn{
+	margin-bottom: .6rem;
+}
+
+.btn-sm{
+		margin-bottom: .6rem;
+
 }
 
 .grid-item-content a{
@@ -69,24 +104,24 @@ body{
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover h5{
-	color:  #21254f;
+	color:  #60bc93;
 	text-decoration: underline;
 }
 
 a:hover p{
 	color:  #21254f;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .grid-item-content h5{
 	padding-left: 1rem;
 	padding-right: 1rem;
 	padding-top: 1rem;
-	color: #21254f;
+	color: #60bc93;
 }
 
 .grid-item-content p{
@@ -98,4 +133,15 @@ a:hover p{
 
 .grid-item{
 	margin-top:1.5rem;
+}
+
+.header{
+    margin-left: 0rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    }
+
+.button-group{
+	margin-left: 1rem;
+    margin-bottom: 1rem;
 }
