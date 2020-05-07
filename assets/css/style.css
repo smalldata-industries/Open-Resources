@@ -2,12 +2,18 @@ body{
 	background-color: #f1e7e5;
 	font-family: 'Roboto Mono', monospace;
 	color: #21254f;
-	margin:35px 15px 35px;
+	margin-top:35px;
 }
 
 .logo{
-	height: 75px;
-	margin-bottom: 19px;
+/*	height: 75px;
+*/	margin-bottom: 19px;
+}
+
+.footer{
+	background-color: #21254f;
+	color: white;
+	padding-top: 3rem;
 }
 
  h1{
@@ -16,9 +22,47 @@ body{
 
 .card{
 	margin:.8em;
+	min-width: 31.3% !important;
 }
 
 .card-container{
 	margin-left: -.8em;
 	margin-right: -.8em;
+}
+
+
+.strong{
+	font-weight: 700;
+}
+
+.github{
+	position: absolute;
+	top: 0;
+	right:0;
+	z-index: 150;
+}
+
+.github a{
+	display: inline;
+}
+
+@media only screen and (max-width: 995px) {
+  .github{
+	display: none;
+}
+
+}
+
+.grid{
+	margin-bottom: 6rem;
+}
+
+
+.grid-item-content {
+  background: white;
+  border: 1px solid hsla(0, 0%, 0%, 0.7);
+}
+
+.grid-item{
+	margin-top:1.5rem;
 }
