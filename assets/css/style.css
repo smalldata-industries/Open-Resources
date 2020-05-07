@@ -145,3 +145,15 @@ a:hover p{
 	margin-left: 1rem;
     margin-bottom: 1rem;
 }
+
+.foreward{
+  background-color: #21254f;
+  color: #f2e7e6;
+  padding: 20px;
+  font-size: .8rem;
+  line-height: 1em;
+}
+
+.spacer {
+	margin: 5rem;
+}
