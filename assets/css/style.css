@@ -28,6 +28,10 @@ body{
 	margin-bottom: 6rem;
 }
 
+.img-fluid{
+	width: 100%;
+}
+
 .footer ul{
 	font-size: 11px;
 	color: #f1e7e5;
