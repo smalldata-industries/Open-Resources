@@ -8,8 +8,13 @@ var $grid = $('.grid').imagesLoaded( function() {
   });
 });
 
+$(document).ready(function(){
 
-
+	setTimeout(function(){
+		$("#myModal").modal('show')
+	}, 2000);
+        
+    });
 
 // var $grid = $('.grid').imagesLoaded( function() {
 //   // init Isotope after all images have loaded
