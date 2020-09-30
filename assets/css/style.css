@@ -14,6 +14,45 @@ body{
 	max-width: 100%;
 }
 
+
+.modal .modal-dialog {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    margin:4rem;
+    border: 0;
+}
+
+.modal-content{
+	color: black;
+    background-color: #f1e7e5;
+    border: 0;
+    padding: 1rem;
+}
+
+.modal-header{
+	border: 0;
+}
+
+.modal-body{
+	border: 0;
+}
+
+.modal-footer{
+	border: 0;
+}
+
+.modal .btn-primary{
+	background-color: #61bc93;
+	border: 0;
+}
+
+.fade {
+    -webkit-transition-duration: .5s; /* Safari */
+    transition-duration: .5s;
+}
+
+
 .footer{
 	background-color: #21254f;
 	color: white;
